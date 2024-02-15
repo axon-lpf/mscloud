@@ -23,8 +23,14 @@
         <module name="cloud-gateway-gateway9527" />
         <module name="cloud-consumer-order80" />
         <module name="cloud-provider-hystrix-payment8001" />
+        <module name="cloud-config-client-3355" />
         <module name="cloud-consumer-feign-order80" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-config-client-3355 (1)" target="8" />
+      <module name="cloud-config-client-3355 (2)" target="1.8" />
+      <module name="cloud-config-client-3366" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
