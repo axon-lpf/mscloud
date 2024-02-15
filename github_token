@@ -2,3 +2,9 @@ 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
 
 
 git remote set-url origin https://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@github.com/rainbow-lpf/mscloud.git
+
+
+git remote set-url origin https://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@github.com/rainbow-lpf/springcloud-config.git
+
+
+git remote set-url origin git@github.com:rainbow-lpf/springcloud-config.git
