@@ -1,0 +1,27 @@
+server:
+  port: 3399
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master
+      name: config
+      profile: dev
+      uri: http://localhost:3344/
+  rabbitmq:
+    host: 192.168.2.60
+    port: 5672
+    username: dev
+    password: dev
+    virtual-host: /
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka, http://eureka7002.com:7002/eureka  # 集群版
+
+management :
+  endpoints :
+    web :
+      exposure :
+        include : '*'

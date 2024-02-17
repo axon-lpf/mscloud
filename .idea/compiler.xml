@@ -7,30 +7,56 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-providerconsul-payment8006" />
-        <module name="cloud-provider-payment8002" />
         <module name="cloud-eureka-server7001" />
-        <module name="cloud-api-commons" />
-        <module name="cloud-provider-payment8001" />
         <module name="cloud-eureka-server7002" />
         <module name="cloud-consumer-feign-hystrix-order80" />
-        <module name="cloud-providerzk-payment8004" />
         <module name="cloud-consumer-mqtt88" />
+        <module name="cloud-stream-rabbitmq-provider8801" />
         <module name="cloud-consumerconsul-order80" />
-        <module name="cloud-consumer-hystrix-dashboard9001" />
+        <module name="cloud-stream-rabbitmq-consumer8802" />
         <module name="cloud-consumerzk-order81" />
+        <module name="cloud-stream-rabbitmq-consumer8803" />
         <module name="cloud-config-center-3344" />
-        <module name="cloud-gateway-gateway9527" />
-        <module name="cloud-consumer-order80" />
         <module name="cloud-provider-hystrix-payment8001" />
-        <module name="cloud-config-client-3355" />
+        <module name="cloud-config-client-3366" />
         <module name="cloud-consumer-feign-order80" />
+        <module name="cloud-providerconsul-payment8006" />
+        <module name="cloud-provider-payment8002" />
+        <module name="cloud-api-commons" />
+        <module name="cloud-provider-payment8001" />
+        <module name="cloud-providerzk-payment8004" />
+        <module name="cloud-consumer-hystrix-dashboard9001" />
+        <module name="cloudalibaba-provider-payment9002" />
+        <module name="cloudalibaba-provider-payment9001" />
+        <module name="cloud-gateway-gateway9527" />
+        <module name="cloudalibaba-consumer-nacos-order83" />
+        <module name="cloud-consumer-order80" />
+        <module name="cloudalibaba-sentinel-service8401" />
+        <module name="cloud-config-client-3355" />
+        <module name="cloud-config-client-3399" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="benchmarks" target="17" />
       <module name="cloud-config-client-3355 (1)" target="8" />
       <module name="cloud-config-client-3355 (2)" target="1.8" />
       <module name="cloud-config-client-3366" target="1.8" />
+      <module name="zipkin" target="8" />
+      <module name="zipkin-collector" target="11" />
+      <module name="zipkin-collector-activemq" target="11" />
+      <module name="zipkin-collector-kafka" target="11" />
+      <module name="zipkin-collector-parent" target="1.8" />
+      <module name="zipkin-collector-rabbitmq" target="11" />
+      <module name="zipkin-collector-scribe" target="11" />
+      <module name="zipkin-junit5" target="11" />
+      <module name="zipkin-lens" target="11" />
+      <module name="zipkin-parent" target="1.8" />
+      <module name="zipkin-server" target="17" />
+      <module name="zipkin-storage-cassandra" target="11" />
+      <module name="zipkin-storage-elasticsearch" target="11" />
+      <module name="zipkin-storage-mysql-v1" target="11" />
+      <module name="zipkin-storage-parent" target="1.8" />
+      <module name="zipkin-tests" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
