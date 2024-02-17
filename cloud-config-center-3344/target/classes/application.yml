@@ -1,0 +1,35 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config:
+      server:
+        git:
+          #uri: git@github.com:rainbow-lpf/springcloud-config.git
+          uri: https://github.com/rainbow-lpf/springcloud-config.git
+          search-paths:
+            - springcloud-config
+          skip-ssl-validation: true    #跳过ssl验证
+          username: rainbow-lpf@outlook.com
+          password: 958712LPF817492.
+      label: master
+  rabbitmq:
+    host: 192.168.2.60
+    port: 5672
+    username: dev
+    password: dev
+    virtual-host: /
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka, http://eureka7002.com:7002/eureka  # 集群版
+
+management : 
+  endpoints : 
+    web : 
+      exposure :
+        include : 'bus-refresh'
+
