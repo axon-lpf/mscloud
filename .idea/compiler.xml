@@ -32,6 +32,7 @@
         <module name="cloudalibaba-provider-payment9001" />
         <module name="cloud-gateway-gateway9527" />
         <module name="cloudalibaba-consumer-nacos-order83" />
+        <module name="cloudalibaba-provider-payment9005" />
         <module name="cloud-consumer-order80" />
         <module name="cloudalibaba-sentinel-service8401" />
         <module name="cloud-config-client-3355" />
@@ -43,6 +44,7 @@
       <module name="cloud-config-client-3355 (1)" target="8" />
       <module name="cloud-config-client-3355 (2)" target="1.8" />
       <module name="cloud-config-client-3366" target="1.8" />
+      <module name="cloudalibaba-provider-payment9003" target="8" />
       <module name="zipkin" target="8" />
       <module name="zipkin-collector" target="11" />
       <module name="zipkin-collector-activemq" target="11" />
