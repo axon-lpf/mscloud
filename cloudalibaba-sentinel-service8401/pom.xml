@@ -71,6 +71,10 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId> com.alibaba.csp </groupId >
+            <artifactId> sentinel-datasource-nacos </artifactId >
+        </dependency>
     </dependencies>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
